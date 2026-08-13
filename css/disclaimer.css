@@ -1,0 +1,51 @@
+body{
+    background-color: #fff5d6 !important;
+}
+.icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono img{
+    height: 200px;
+    width: auto;
+    margin-top: 80px;
+    animation: grande 1s ease infinite;
+}
+.texto{
+    text-align: center;
+    font-family: 'Google Sans', sans-serif;
+    margin-top: 40px;
+    color: #ee9960;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px !important;
+    border: none;
+    background-color: #835339;
+    color: #fff;
+    font-family: "Google Sans", sans-serif !important;
+    transition: background-color 1s ease, transform 1s ease;
+}
+button:hover{
+    background-color: #e2b094;
+    transform: scale(1.01);
+}
+@keyframes grande {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
